@@ -1,0 +1,16 @@
+<div align="center">
+	<form action="sign_in.php" method="post">
+		<?php 
+		if ($_GET['error'])
+		{
+			echo $_GET['error'];
+		}
+		?>
+		<br/>
+		<input required="" type="text" name="login" value="" placeholder="Login"><br/>
+		<input required="" type="password" name="passwd" value="" placeholder="Password"><br/>
+		<input type="submit" name="submit1" value="OK"/><br/>
+	</form>
+	<a href="index.php"><button>return</button></a><br/>
+	<a href="index.php?c=registration"><button>sign up</button></a><br/>
+</div>
