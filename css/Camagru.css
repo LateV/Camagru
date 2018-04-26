@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	color: #00FF00;
+}
+a {
+	text-decoration: none;
+	color: #00FF00;
+}
+video{
+	transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	width: 48vmin;
+	height: 36vmin;
+}
+#canvas{
+	width: 48vmin;
+	height: 36vmin;
+}
+#wrap {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto 0 auto;
+	position: relative;
+}
+#header {
+	background-color: red;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	display: flex;
+	border-radius: 10px;
+}
+#logo{
+	margin-left: 5px;
+	font-size: 4vw;
+	font-family: "Pompadur";
+}
+#sign_in_up{
+	margin-left: 70vw;
+	font-size: 3vw;
+	font-family: "Pompadur";
+}
+#footer {
+	width: 100%;
+	background-color: red;;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.item{
+	align-items: center;
+}
+#vid{
+	width: 48vmin;
+	height: 36vmin;
+}
+
+
+
+
+.button {
+	display: inline-block;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow:
+	0px 3px rgba(128,128,128,1),
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+        0px 14px 6px -1px rgba(128,128,128,1); 
+}
+
+.button span {
+	background-color: #E8E8E8;
+	-webkit-border-radius: 10px;
+	display: inline-block;
+    padding: 1vmin 4vmin 1vmin 4vmin;
+    color: #3A474D;
+    font-weight: 700;
+    font-size: 2vmin;
+}
+.button span:hover{
+	color: #AEBF3B;
+	text-shadow: 0px -1px #97A63A;
+	cursor: pointer;
+}
+.button:active {
+	box-shadow:
+	0px 3px rgba(128,128,128,1),
+	0px 4px rgba(118,118,118,1),
+	0px 5px rgba(108,108,108,1),
+	0px 6px rgba(98,98,98,1),
+    0px 7px rgba(88,88,88,1),
+    0px 8px rgba(78,78,78,1),
+    0px 10px 2px 0px rgba(128,128,128,.6);
+}
+.button:active span{
+	transform: translate(0, 5px);
+}
